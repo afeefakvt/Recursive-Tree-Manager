@@ -1,5 +1,5 @@
 import { CorsOptions } from "cors";
-import { env } from "./env.config";
+import { env } from "./envConfig";
 
 const corsOption : CorsOptions = {
     origin: env.FRONTEND_URL,
